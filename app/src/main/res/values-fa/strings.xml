@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VPN Gate</string>
+
+    <string name="tab_servers">سرورها</string>
+    <string name="tab_favorites">علاقه‌مندی‌ها</string>
+    <string name="tab_settings">تنظیمات</string>
+
+    <string name="search_hint">جستجوی سرور، کشور یا IP…</string>
+    <string name="all_countries">همه کشورها</string>
+    <string name="favorites_filter">علاقه‌مندی‌ها</string>
+    <string name="country_picker">کشور</string>
+    <string name="selection_mode">انتخاب</string>
+    <string name="selected_count">%1$d انتخاب‌شده</string>
+    <string name="exit_selection">پایان</string>
+    <string name="select_all">انتخاب همه</string>
+    <string name="delete_selected">حذف موارد انتخاب‌شده</string>
+    <string name="delete_selected_confirm">کانفیگ‌های انتخاب‌شده حذف شوند؟ این عمل قابل بازگشت نیست.</string>
+    <string name="delete_server">حذف کانفیگ</string>
+    <string name="delete_server_confirm">این کانفیگ حذف شود؟ قابل بازگشت نیست.</string>
+    <string name="export_ovpn">ذخیره به‌صورت OVPN</string>
+    <string name="export_done">%1$d کانفیگ در (پوشه‌ی) %2$s ذخیره شد</string>
+    <string name="export_failed">ذخیره‌سازی ناموفق بود. هیچ کانفیگی ذخیره نشد.</string>
+    <string name="refresh">به‌روزرسانی</string>
+    <string name="check_connection">بررسی اتصال</string>
+    <string name="checking">در حال بررسی…</string>
+
+    <string name="ping_value">پینگ: %1$d میلی‌ثانیه</string>
+    <string name="speed_value">سرعت: %1$s مگابیت</string>
+    <string name="sessions_value">جلسات: %1$d</string>
+    <string name="uptime_value">آپتایم: %1$s</string>
+
+    <string name="back">بازگشت</string>
+    <string name="favorite_toggle">علاقه‌مندی</string>
+    <string name="ping_measured">پینگ سنجیده‌شده: %1$d میلی‌ثانیه</string>
+    <string name="ping_service">پینگ سرویس: %1$d میلی‌ثانیه</string>
+    <string name="config_preview">پیش‌نمایش کانفیگ OpenVPN</string>
+    <string name="status_section">وضعیت و مشخصات</string>
+    <string name="field_ip">آدرس IP</string>
+    <string name="field_host">نام میزبان</string>
+    <string name="field_score">امتیاز سرویس</string>
+    <string name="field_speed">سرعت</string>
+    <string name="field_sessions">کاربران متصل</string>
+    <string name="field_uptime">آپتایم</string>
+    <string name="field_users">مجموع کاربران</string>
+    <string name="field_traffic">ترافیک کل</string>
+    <string name="field_logtype">نوع لاگ</string>
+    <string name="field_message">پیام</string>
+    <string name="connect">اتصال با OpenVPN</string>
+    <string name="copy">کپی</string>
+    <string name="share">اشتراک</string>
+    <string name="client_note">نکته: برای اتصال ابتدا اپلیکیشن OpenVPN for Android را از F-Droid نصب کنید. اگر نصب باشد، کانفیگ به‌صورت خودکار در آن باز می‌شود.</string>
+    <string name="openvpn_client_required">انتخاب اپلیکیشن OpenVPN</string>
+    <string name="openvpn_client_needed">ابتدا OpenVPN for Android را نصب کنید (فقط از F-Droid)</string>
+    <string name="send_config">ارسال کانفیگ…</string>
+    <string name="config_copied">کانفیگ کپی شد</string>
+
+    <string name="sort_score">امتیاز</string>
+    <string name="sort_ping">پینگ</string>
+    <string name="sort_speed">سرعت</string>
+    <string name="sort_sessions">جلسات</string>
+    <string name="score_label">امتیاز: %1$s</string>
+    <string name="ovpn_udp">OVPN UDP</string>
+    <string name="ovpn_tcp">OVPN TCP</string>
+    <string name="ovpn_both">OVPN UDP/TCP</string>
+    <string name="months_format">%1$s ماه</string>
+    <string name="weeks_format">%1$s هفته</string>
+    <string name="days_format">%1$d روز</string>
+    <string name="hours_format">%1$d ساعت</string>
+
+    <string name="servers_count">%1$d سرور</string>
+    <string name="last_update">آخرین به‌روزرسانی: %1$s</string>
+    <string name="refresh_failed">ارتباط با VPN Gate برقرار نشد.\nداده‌های ذخیره‌شده نمایش داده می‌شود.</string>
+    <string name="refresh_ok">به‌روزرسانی شد: %1$d سرور</string>
+    <string name="retry">تلاش مجدد</string>
+
+    <string name="empty_list">سروری مطابق فیلترها یافت نشد.</string>
+    <string name="empty_favorites">هنوز سروری در علاقه‌مندی‌ها نیست.\nبرای افزودن، روی قلب کارت سرور بزنید.</string>
+
+    <string name="settings">تنظیمات</string>
+    <string name="language">زبان</string>
+    <string name="lang_system">پیش‌فرض سیستم</string>
+    <string name="lang_en">English</string>
+    <string name="lang_fa">فارسی</string>
+    <string name="theme">پوسته</string>
+    <string name="theme_system">سیستم</string>
+    <string name="theme_light">روشن</string>
+    <string name="theme_dark">تیره</string>
+    <string name="default_sort">ترتیب مرتب‌سازی پیش‌فرض</string>
+    <string name="auto_refresh">به‌روزرسانی خودکار</string>
+    <string name="auto_refresh_off">خاموش</string>
+    <string name="auto_refresh_10m">هر ۱۰ دقیقه</string>
+    <string name="auto_refresh_30m">هر ۳۰ دقیقه</string>
+    <string name="auto_refresh_1h">هر ساعت</string>
+    <string name="use_mirror">استفاده از آدرس جایگزین</string>
+    <string name="use_mirror_desc">در صورت عدم دسترسی به آدرس اصلی از سرور جایگزین استفاده شود. در شبکه‌های محدودشده کمک می‌کند.</string>
+    <string name="clear_cache">پاک کردن داده‌های ذخیره‌شده</string>
+    <string name="clear_cache_confirm">فهرست سرورهای ذخیره‌شده حذف شود؟</string>
+    <string name="cancel">انصراف</string>
+    <string name="delete">حذف</string>
+    <string name="cache_cleared">داده‌های ذخیره‌شده حذف شد</string>
+    <string name="about">درباره</string>
+    <string name="version_label">نسخه</string>
+    <string name="choose_client">انتخاب اپلیکیشن OpenVPN</string>
+
+    <string name="loading">در حال دریافت سرورها…</string>
+    <string name="no_internet">به اینترنت متصل نیستید.</string>
+</resources>
