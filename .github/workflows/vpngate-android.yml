@@ -69,7 +69,7 @@ jobs:
           BUILD_TOOLS=$(ls -d $ANDROID_HOME/build-tools/*/ | sort -V | tail -1)
           SIGNER=$BUILD_TOOLS/apksigner
           TAG="${{ github.ref_name }}"
-          ALIAS=$(keytool -list -keystore my-key.jks -storepass "$KS_PASS" 2>/dev/null | sed -n 's/^Alias name: //p' | head -1)
+          ALIAS=$(keytool -list -v -keystore my-key.jks -storepass "$KS_PASS" 2>/dev/null | sed -n 's/^Alias name: //p' | head -1)
           echo "Detected keystore alias: $ALIAS"
 
           mkdir -p final
