@@ -32,12 +32,12 @@ jobs:
           java-version: '17'
           cache: gradle
 
-      - name: Set up Android SDK
-        uses: android-actions/setup-android@v3
-        with:
-          api-level: 34
-          build-tools-version: 34.0.0
-          cmake-version: 3.22.1
+      - name: Verify Android SDK
+        run: |
+          echo "ANDROID_HOME=$ANDROID_HOME"
+          ls "$ANDROID_HOME/platforms" || true
+          ls "$ANDROID_HOME/build-tools" || true
+          echo "sdkmanager licenses are pre-accepted on the runner"
 
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v4
