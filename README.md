@@ -2,6 +2,8 @@
 
 An Android client for browsing and exporting the public **VPN Gate** server list, with English and Persian (RTL) support.
 
+> **فارسی:** این سند را به فارسی می‌خواهید؟ [README.fa.md](README.fa.md)
+
 ## Features
 
 - **Live server list** – Pulls the latest servers directly from vpngate.net and parses each OpenVPN config.
